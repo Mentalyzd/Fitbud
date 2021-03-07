@@ -117,7 +117,7 @@ In dit project heb ik de volgende packaged gebruikt **NPM** :
 * [mongoose](https://www.npmjs.com/package/mongoose)
 * [multer](https://www.npmjs.com/package/multer)
 * [node](https://www.npmjs.com/package/node)
-* [nodemon](https://www.npmjs.com/package/nodemon) **(Dev-dependencie)**
+* [nodemon](https://www.npmjs.com/package/nodemon) **(Dev-dependency)**
 
 ## License
 [MIT](https://github.com/Mentalyzd/Fitbud/blob/main/LICENSE) © [Christiaan Zandbergen](https://github.com/Mentalyzd)
