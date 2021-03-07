@@ -65,10 +65,29 @@ Maak account aan voor mongoDB
 ```
 Ga naar: https://account.mongodb.com/account/register
 ```
-Zodra je ingelogd bent maak je een nieuw project aan in Atlas. Daarna maak je ook een nieuw cluster en een database aan met de naam naar keuze. Onthoud de database name wel! MongoDB vraagt je om een username en een wachtwoord maken voor de database connectie. Onthoud deze ook goed!
+1. Zodra je ingelogd bent maak je een nieuw project aan in Atlas.
+2. Daarna maak je ook een nieuw cluster en een database aan met de naam naar keuze. Onthoud de database naam goed! 
+3. MongoDB vraagt je om een username en een wachtwoord maken voor de database connectie. Onthoud deze ook goed!
 
 ### Stap 2
 Maak in de root van de repo een bestand aan, genaamd .env
 ```
 touch .env
 ```
+
+Open het nieuwe betand in nano
+```
+nano .env
+```
+Hierin ga je variable toevoegen als gebruikersnaam, wachtwoord en database naam:
+```
+DB_USER=JOUW_DATABASE_GEBRUIKERSNAAM
+DB_PASS=JOUW_DATABASE_WACHTWOORD
+DB_NAME=JOUW_DATABASE_NAAM
+```
+
+Sla je bestand op
+```
+Type: CTRL + X
+```
+
