@@ -61,13 +61,14 @@ App listening at http://localhost:2999 and on local network at http://YOU_LOCALE
 
 ## Install Database
 ### Stap 1
-Installeer git
+Maak account aan voor mongoDB
 ```
-sudo apt update
-sudo apt install git
+Ga naar: https://account.mongodb.com/account/register
 ```
-Controleer of installatie gelukt is
+Zodra je ingelogd bent maak je een nieuw project aan in Atlas. Daarna maak je ook een nieuw cluster en een database aan met de naam naar keuze. Onthoud de database name wel! MongoDB vraagt je om een username en een wachtwoord maken voor de database connectie. Onthoud deze ook goed!
+
+### Stap 2
+Maak in de root van de repo een bestand aan, genaamd .env
 ```
-git --version
-Voorbeeld output: git version 2.17.1
+touch .env
 ```
