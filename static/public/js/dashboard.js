@@ -13,10 +13,12 @@ function updateScroll() {
     var clientHeigth = document.body.clientHeight - window.innerHeight;
 
     //Wanneer hoogte 25 is, doe zoekbalk anim
-    if(scrollTop > 25) {
-        zoekBalk.classList.add('zoekBalkScroll');
-    }else{
-        zoekBalk.classList.remove('zoekBalkScroll');
+    if(zoekBalk){
+        if(scrollTop > 25) {
+            zoekBalk.classList.add('zoekBalkScroll');
+        }else{
+            zoekBalk.classList.remove('zoekBalkScroll');
+        }
     }
 
     //Wanneer de hoogte hoger is dan ..
