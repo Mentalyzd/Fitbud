@@ -3,7 +3,7 @@ Deze app is gemaakt als project voor Blok Tech. Hierbij was het de bedoeling om 
 
 Deze webapp is alleen voor mobiel gebruik. Met de app kan je een eigen account aanmaken, inloggen, gebruikers liken en je profiel aanpassen.
 
-![](https://user-images.githubusercontent.com/32453774/110257911-455ab700-7fa0-11eb-9082-cf1aadaf2e96.jpg)
+![](https://user-images.githubusercontent.com/32453774/110259474-0c264500-7fa8-11eb-8387-f6d2c5b1ec14.jpg)
 
 ## Content
 1. [Install App](#install-app)
