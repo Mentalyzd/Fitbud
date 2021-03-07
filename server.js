@@ -58,7 +58,7 @@ const uri  = 'mongodb+srv://' + process.env.DB_USER + ':' + process.env.DB_PASS 
 //Database connectie start
 mongoose.Promise = global.Promise
 mongoose.connect( uri, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true })
-.then(() => console.log('Connection succesfull'))
+.then(() => console.log('Database connection succesfull'))
 .catch((err) => console.error(err))
 
 // Statische bestanden
@@ -374,5 +374,5 @@ app.get('*', (req, res) => {
 
 //Luister op port
 app.listen(port, process.env.OPENSHIFT_NODEJS_IP || process.env.IP || '0.0.0.0', () => {
-  console.log(`Example app listening at http://localhost:${port} and from other machines at http://192.168.0.106:8080`)
+  console.log(`App listening at http://localhost:${port} and from other machines at http://192.168.0.106:8080`)
 })

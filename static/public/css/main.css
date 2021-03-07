@@ -245,7 +245,6 @@ main section > div:nth-of-type(4) > div:nth-of-type(1) {
     25%{
         transform: scale(1.2);
         filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.3));
-        
     }
     50%{
         transform: scale(1);
@@ -344,15 +343,13 @@ main .favoEmptyState a{
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 1px 1px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 10%), 0 4px 4px rgb(0 0 0 / 10%), 0 8px 8px rgb(0 0 0 / 10%), 0 16px 16px rgb(0 0 0 / 10%);
-    border: 0.15em solid #76d2e2;
-    padding: 0.25em;
+    border: 0.15em solid #fff;
 }
 
 .profilePage form{
     display: flex;
     flex-direction: column;
     color: #fff;
-    //margin-bottom: 4em;
 }
 
 .profilePage textarea {
@@ -420,12 +417,16 @@ main .favoEmptyState a{
 }
 
 .profilePage .profileHead{
-    position: relative;
-    width: 100%;
+    position: fixed;
+    top: 8.5em;
+    left: 1em;
+    width: calc(100% - 2em);
+    z-index: 5;
+    transition: 0.3s ease;
     display: flex;
     flex-direction: column;
     margin-bottom: 1em;
-    background: linear-gradient(-135deg, rgb(60, 62, 85) 0%, rgb(29, 30, 44) 100%);
+    background: -webkit-linear-gradient( 135deg, #76e2ce, #3461ab);
     box-shadow: 0 1px 1px rgb(0 0 0 / 20%), 0 2px 2px rgb(0 0 0 / 20%), 0 4px 4px rgb(0 0 0 / 20%), 0 8px 8px rgb(0 0 0 / 20%), 0 16px 16px rgb(0 0 0 / 20%);
     padding: 1em;
     border-radius: 1em;
@@ -443,10 +444,11 @@ main .favoEmptyState a{
     display: flex;
     margin-top: 1em;
     font-weight: 600;
+    color: #232534;
 }
 
 .profilePage .profileHead > div:nth-of-type(2) > p{
-    background: linear-gradient( -135deg,#db41c7, #db4185 );
+    background: #fff;
     padding: 0.5em 1em;
     border-radius: 0.5em;
     margin-right: 0.5em;
@@ -461,7 +463,6 @@ main .favoEmptyState a{
     right: 1em;
     top: 1em;
     font-size: 0.8em;
-    //border-bottom: 0.15em solid #fff;
 }
 
 .profilePage .editIcon i{
@@ -470,6 +471,7 @@ main .favoEmptyState a{
 }
 
 .profilePage .nameWrap{
+    margin: 15.5em 0 0 0;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -478,6 +480,34 @@ main .favoEmptyState a{
     box-shadow: 0 1px 1px rgb(0 0 0 / 20%), 0 2px 2px rgb(0 0 0 / 20%), 0 4px 4px rgb(0 0 0 / 20%), 0 8px 8px rgb(0 0 0 / 20%), 0 16px 16px rgb(0 0 0 / 20%);
     padding: 1em;
     border-radius: 1em;
+}
+
+.profilePage .logoutBtn{
+    position: absolute;
+    top: 0.5em;
+    right:0em;
+}
+
+.profilePage .logoutBtn button{
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+}
+
+.profilePage .logoutBtn button span{
+    font-size: 0.8em;
+    margin-left: 0.5em;
+}
+
+.profilePage .nameWrap h3{
+    margin-bottom: 1em;
 }
 
 /*Footer nav*/
@@ -516,21 +546,9 @@ ul li i{
     font-size: 1.5em;
 }
 
-nav ul li button{
-    background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
-}
-
 .backToTop{
     transform: rotate(90deg);
-    
 }
-
 
 ul li a div{
     width: 1.5em;
@@ -874,8 +892,6 @@ ul li a div{
     outline:0;
 }
 
-
-
 .registerWrap a{
     text-decoration: none;
     color: #fff;
@@ -885,7 +901,6 @@ ul li a div{
     text-decoration: underline;
     color: #ff40e5;
 }
-
 
 .registerWrap ::placeholder {
     color: #888;
@@ -911,10 +926,6 @@ ul li a div{
     margin-bottom: 2em;
 }
 
-.registerCarouselInfo{
-    //transform: translateX(-25%);
-}
-
 .registerCarouselInfo form > div{
     transform: translateX(-25%);
 }
@@ -922,8 +933,6 @@ ul li a div{
 .registerCarouselInfo .progressBalk .innerProgressBalk{
     width: 40%;
 }
-
-
 
 .registerCarouselInfo .registerSteps .registerStep1 > div > div{
     border: 0.15em solid #76d2e2 ;
@@ -948,12 +957,6 @@ ul li a div{
     top: -0.35em;
     left: -0.08em;
     text-shadow: 4px 0 0 #232534, -4px 0 0 #232534, 0 4px 0 #232534, 0 -4px 0 #232534, 2px 2px #232534, -2px -2px 0 #232534, 2px -2px 0 #232534, -2px 2px 0 #232534;
-}
-
-
-
-.registerCarouselGym{
-    //transform: translateX(-50%);
 }
 
 .registerCarouselGym form > div{
@@ -989,10 +992,6 @@ ul li a div{
     text-shadow: 4px 0 0 #232534, -4px 0 0 #232534, 0 4px 0 #232534, 0 -4px 0 #232534, 2px 2px #232534, -2px -2px 0 #232534, 2px -2px 0 #232534, -2px 2px 0 #232534;
 }
 
-.registerCarouselBio{
-    //transform: translateX(-75%);
-}
-
 .registerCarouselBio form > div{
     transform: translateX(-75%);
 }
@@ -1026,13 +1025,7 @@ ul li a div{
     text-shadow: 4px 0 0 #232534, -4px 0 0 #232534, 0 4px 0 #232534, 0 -4px 0 #232534, 2px 2px #232534, -2px -2px 0 #232534, 2px -2px 0 #232534, -2px 2px 0 #232534;
 }
 
-
-
 .registerWrap form .registerCarousel > div{
     width: 25%;
     padding-right: 1em;
-}
-
-#stap1{
-    //transform: translateX(100%);
 }

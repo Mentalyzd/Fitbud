@@ -15,7 +15,12 @@
       <div class="profileWrap">
         
         <h1>Profile</h1>
-        <div class="profileHead">
+        <form class="logoutBtn" method="post" action="/logout">
+          <button type="submit" class="btn btn-success">
+              <i class="fas fa-sign-out-alt"></i><span>Logout </span>
+          </button>       
+        </form>
+        <div class="profileHead" id="zoekBalk">
           <div>
             <img src="<%= ingelogd[0].profilePic %>" alt="">
             	<div>
@@ -37,7 +42,7 @@
                 <input id="profilePic" type="file" name="profilePic" accept="image/png, image/jpeg">-->
               <div class="bioWrap">
                   <!--<label for="bio">Biography</label>-->
-                <textarea name="bio" id="bio" placeholder="Describe when and what you do in the gym..." rows="4"><%= ingelogd[0].bio %></textarea>
+                <textarea name="bio" id="bio" placeholder="Describe when and what you do in the gym..." rows="5"><%= ingelogd[0].bio %></textarea>
               </div>
                 
               <h3>Personal Info</h3>
