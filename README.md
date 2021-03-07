@@ -64,8 +64,8 @@ Maak account aan voor mongoDB
 Ga naar: https://account.mongodb.com/account/register
 ```
 1. Zodra je ingelogd bent maak je een nieuw project aan in MongoDB Atlas.
-2. Daarna maak je ook een nieuw cluster en een database aan met de naam naar keuze. Onthoud de database naam goed! 
-3. MongoDB vraagt je om een username en een wachtwoord maken voor de database connectie. Onthoud deze ook goed!
+2. Daarna maak je ook een nieuw cluster en een database aan met de naam naar keuze. **Onthoud de database naam goed!**
+3. MongoDB vraagt je om een username en een wachtwoord maken voor de database connectie. **Onthoud deze ook goed!**
 
 
 
