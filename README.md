@@ -18,6 +18,16 @@ Deze webapp is alleen voor mobiel gebruik. Met de app kan je een eigen account a
 
 
 ## Install
+
+Installeer git
+```
+sudo apt update
+sudo apt install git
+```
+Check of installatie gelukt is
+```
+git --version
+```
 Clone de repo van github
 ```
 git clone https://github.com/Mentalyzd/matching-application.git
