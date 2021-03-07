@@ -9,12 +9,8 @@ Deze webapp is alleen voor mobiel gebruik. Met de app kan je een eigen account a
 ## Content
 1. [Install App](#install-app)
 2. [Install Database](#install-database)
-4. [Code](#code)
-5. [Data](#render-data)
-6. [Update](#update-data)
-7. [Packages](#packages)
-8. [Sources](#sources)
-9. [License](#license)
+3. [Dependencies](#dependencies)
+4. [License](#license)
 
 
 ## Install App
