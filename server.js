@@ -228,8 +228,41 @@ app.get('/profile', redirectLogin, async (req, res) => {
   }
 })
 
-app.post('/profile', async (req, res) => {
+app.post('/profile', (req, res) => {
+  //Zet POST alles in variable
+  let firstnamePost = req.body.firstname
+  let lastnamePost = req.body.lastname
+  let agePost = req.body.age
+  let gymnamePost = req.body.gymname
+  let gymplacePost = req.body.gymplace
+  let gymervPost = req.body.gymerv
+  let bioPost = req.body.bio
   
+  //check of alles is gezet
+  if (firstnamePost && lastnamePost && agePost && gymnamePost && gymplacePost && gymervPost && bioPost) {
+    try{
+      //Update gebruiks info
+       User.updateOne(
+        {_id : req.session.userId},
+        {$set:{
+          firstname: firstnamePost,
+          lastname: lastnamePost,
+          age: agePost,
+          gymname: gymnamePost,
+          gymplace: gymplacePost,
+          gymerv: gymervPost,
+          bio: bioPost
+        }
+      }, (err, docs) => {
+        if (docs) {
+          res.redirect('/profile')
+        }
+      })
+    }catch (error) {
+      console.log(error)
+    }
+  }
+
 })
 
 
@@ -295,7 +328,7 @@ app.post('/registreer', upload.single('profilePic'), async (req, res) => {
   if (emailPost && passwordPost && firstnamePost && lastnamePost && agePost && gymnamePost && gymplacePost && gymervPost && bioPost) {
     try{
       //Kijk of gebruiker al bestaat
-      const user = await User.findOne({
+      await User.findOne({
         email: emailPost
       }, (err, obj) => {
           if (!obj) {

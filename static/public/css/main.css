@@ -352,7 +352,7 @@ main .favoEmptyState a{
     display: flex;
     flex-direction: column;
     color: #fff;
-    margin-bottom: 4em;
+    //margin-bottom: 4em;
 }
 
 .profilePage textarea {

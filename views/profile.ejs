@@ -30,24 +30,34 @@
           </div>
         </div>
         <div class="nameWrap">
-          <label for="Peronal Info">Peronal Info</label>
-          <h4><%= ingelogd[0].firstname + " " + ingelogd[0].lastname + ", " + ingelogd[0].age + " Years" %></h4>
-          <div class="editIcon"><i class="fas fa-pen"></i>Edit</div>
-        </div>
 
-        <div class="nameWrap">
-          <label for="Gym Info">Gym Info</label>
-          <h4><%= ingelogd[0].gymname + ", " + ingelogd[0].gymplace %></h4>
-          <h4><%= ingelogd[0].gymerv + " Years Experience" %></h4>
-          <div class="editIcon"><i class="fas fa-pen"></i>Edit</div>
-        </div>
+          <form method="post" autocomplete="off" action="/profile">
+              <h3>Biography</h3>
+                <!--<label for="profilePic">Profile picture</label>
+                <input id="profilePic" type="file" name="profilePic" accept="image/png, image/jpeg">-->
+              <div class="bioWrap">
+                  <!--<label for="bio">Biography</label>-->
+                <textarea name="bio" id="bio" placeholder="Describe when and what you do in the gym..." rows="4"><%= ingelogd[0].bio %></textarea>
+              </div>
+                
+              <h3>Personal Info</h3>
+              <label for="firstname">Firstname</label>
+              <input id="firstname" type="text" name="firstname" placeholder="John" value="<%= ingelogd[0].firstname %>" required>
+              <label for="lastname">Lastname</label>
+              <input id="lastname" type="text" name="lastname" placeholder="Joe" value="<%= ingelogd[0].lastname %>" required>
+              <label for="age">Age</label>
+              <input id="age" type="number" name="age" placeholder="18" value="<%= ingelogd[0].age %>" required>
 
-        <div class="nameWrap">
-          <label for="Bio">Bio</label>
-          <h4><%= ingelogd[0].bio %></h4>
-          <div class="editIcon"><i class="fas fa-pen"></i>Edit</div>
+              <h3>Gym Info</h3>
+              <label for="gymname">Gym name</label>
+              <input id="gymname" type="text" name="gymname" placeholder="Fit4Free" value="<%= ingelogd[0].gymname %>" required>
+              <label for="gymplace">Gym place</label>
+              <input id="gymplace" type="text" name="gymplace" placeholder="Amsterdam" value="<%= ingelogd[0].gymplace %>" required>
+              <label for="gymerv">Gym expertise</label>
+              <input id="gymerv" type="number" name="gymerv" placeholder="In years" value="<%= ingelogd[0].gymerv %>" required>
+              <input type="submit" value="Save changes" >
+          </form>
         </div>
-
       </div>
     </main>
     <%- include('components/footer.ejs', {ingelogd: ingelogd}); %>
