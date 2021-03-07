@@ -374,5 +374,5 @@ app.get('*', (req, res) => {
 
 //Luister op port
 app.listen(port, process.env.OPENSHIFT_NODEJS_IP || process.env.IP || '0.0.0.0', () => {
-  console.log(`App listening at http://localhost:${port} and from other machines at http://192.168.0.106:8080`)
+  console.log(`App listening at http://localhost:${port}`)
 })
