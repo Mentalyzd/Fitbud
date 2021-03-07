@@ -80,7 +80,7 @@ Open het nieuwe betand in nano
 nano .env
 ```
 Hierin ga je variable toevoegen als gebruikersnaam, wachtwoord en database naam:
-```<font color="green"> JOUW_DATABASE_GEBRUIKERSNAAM </font>
+```<div color="green"> JOUW_DATABASE_GEBRUIKERSNAAM </div>
 DB_USER=
 DB_PASS=JOUW_DATABASE_WACHTWOORD
 DB_NAME=JOUW_DATABASE_NAAM
