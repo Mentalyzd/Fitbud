@@ -54,7 +54,7 @@ Run de applicatie
 ```
 npm start
 ```
-Succesvolle output
+Succesvolle output:
 ```
 App listening at http://localhost:2999 and on local network at http://YOU_LOCALE_IP_ADRES:8080
 ```
