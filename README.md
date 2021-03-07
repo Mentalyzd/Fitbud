@@ -7,8 +7,8 @@ Deze webapp is alleen voor mobiel gebruik. Met de app kan je een eigen account a
 ![](https://user-images.githubusercontent.com/32453774/110255719-75508d00-7f95-11eb-84d1-4bf19eec5f4a.jpg)
 
 ## Content
-1. [Install App](#Install-App)
-2. Install Database](#Install-Database)
+1. [Install App](#install-app)
+2. [Install Database](#install-database)
 4. [Code](#code)
 5. [Data](#render-data)
 6. [Update](#update-data)
