@@ -101,7 +101,7 @@ npm start
 ```
 De database connectie is succesvol als het volgende in de terminal staat:
 ```
-Connection succesfull
+Database connection succesfull
 []
 ```
 
