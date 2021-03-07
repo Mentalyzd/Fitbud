@@ -53,7 +53,7 @@ npm start
 ```
 Succesvolle output:
 ```
-App listening at http://localhost:2999 and on local network at http://YOU_LOCALE_IP_ADRES:8080
+App listening at http://localhost:2999
 ```
 
 ## Install Database
