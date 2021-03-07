@@ -80,14 +80,27 @@ Open het nieuwe betand in nano
 nano .env
 ```
 Hierin ga je variable toevoegen als gebruikersnaam, wachtwoord en database naam:
-```<div color="green"> JOUW_DATABASE_GEBRUIKERSNAAM </div>
-DB_USER=
+```
+DB_USER=JOUW_DATABASE_GEBRUIKERSNAAM
 DB_PASS=JOUW_DATABASE_WACHTWOORD
 DB_NAME=JOUW_DATABASE_NAAM
 ```
-
-Sla je bestand op
+Sla je bestand op, type:
 ```
-Type: CTRL + X
+CTRL + X
+```
+### Stap 3
+Stop de applicatie, type:
+```
+CTRL + C
+```
+Start de applicatie opnieuw
+```
+npm start
+```
+De database connectie is succesvol als het volgende in de terminal staat:
+```
+Connection succesfull
+[]
 ```
 
