@@ -134,7 +134,11 @@ In dit project heb ik de volgende **NPM** packages gebruikt:
 * [mongoose](https://www.npmjs.com/package/mongoose)
 * [multer](https://www.npmjs.com/package/multer)
 * [node](https://www.npmjs.com/package/node)
-* **(Dev-dependency)** [nodemon](https://www.npmjs.com/package/nodemon) 
+* **(Dev-dependency)** [nodemon](https://www.npmjs.com/package/nodemon)
+
+## Oude repo
+Door problemen met de oude repo een nieuwe repo begonnen. Voor alle oude commits bekijk:
+[Blok_Tech Repo](https://github.com/Mentalyzd/Blok_Tech)
 
 ## License
 [MIT](https://github.com/Mentalyzd/Fitbud/blob/main/LICENSE) © [Christiaan Zandbergen](https://github.com/Mentalyzd)
