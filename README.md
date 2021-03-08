@@ -26,8 +26,8 @@ https://fitbud-5te9b.ondigitalocean.app/registreer
 ## Content
 1. [Install App](#install-app)
 2. [Install Database](#install-database)
-3. [Dependencies](#dependencies)
-4. [Oude repo](#oude-repo)
+3. [Oude repo](#oude-repo)
+4. [Dependencies](#dependencies)
 5. [License](#license)
 
 
@@ -124,6 +124,10 @@ Database connection succesfull
 []
 ```
 
+## Oude repo
+Door problemen met de oude repo, ben ik een nieuwe repo gestart. Voor alle oude commits bekijk:
+[Blok_Tech Repo](https://github.com/Mentalyzd/Blok_Tech)
+
 ## Dependencies
 In dit project heb ik de volgende **NPM** packages gebruikt: 
 * [bcrypt](https://www.npmjs.com/package/bcrypt)
@@ -136,10 +140,6 @@ In dit project heb ik de volgende **NPM** packages gebruikt:
 * [multer](https://www.npmjs.com/package/multer)
 * [node](https://www.npmjs.com/package/node)
 * **(Dev-dependency)** [nodemon](https://www.npmjs.com/package/nodemon)
-
-## Oude repo
-Door problemen met de oude repo, ben ik een nieuwe repo gestart. Voor alle oude commits bekijk:
-[Blok_Tech Repo](https://github.com/Mentalyzd/Blok_Tech)
 
 ## License
 [MIT](https://github.com/Mentalyzd/Fitbud/blob/main/LICENSE) © [Christiaan Zandbergen](https://github.com/Mentalyzd)
