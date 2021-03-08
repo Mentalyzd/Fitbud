@@ -10,7 +10,6 @@ Voorbeeld account login:
 <br>
 ``
 email: test@test.com
-<br>
 wachtwoord: test
 ``
 
