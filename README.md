@@ -109,7 +109,7 @@ Database connection succesfull
 ```
 
 ## Dependencies
-In dit project heb ik de volgende packaged gebruikt **NPM** : 
+In dit project heb ik de volgende **NPM** packages gebruikt: 
 * [bcrypt](https://www.npmjs.com/package/bcrypt)
 * [body-parser](https://www.npmjs.com/package/body-parser-json)
 * [dotenv](https://www.npmjs.com/package/dotenv)
