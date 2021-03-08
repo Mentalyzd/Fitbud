@@ -7,10 +7,10 @@ Bekijk live app:
 https://fitbud-5te9b.ondigitalocean.app/
 
 Voorbeeld account login:
-```
+``
 email: test@test.com
 wachtwoord: test
-```
+``
 
 ![](https://user-images.githubusercontent.com/32453774/110261606-2fa1bd80-7fb1-11eb-887c-4e8dcbd1436b.png)
 
