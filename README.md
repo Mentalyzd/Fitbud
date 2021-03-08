@@ -3,7 +3,25 @@ Deze app is gemaakt als project voor Blok Tech. Hierbij was het de bedoeling om 
 
 Deze webapp is alleen voor mobiel gebruik. Met de app kan je een eigen account aanmaken, inloggen, gebruikers liken en je profiel aanpassen.
 
-![](https://user-images.githubusercontent.com/32453774/110257911-455ab700-7fa0-11eb-9082-cf1aadaf2e96.jpg)
+Bekijk live app:
+https://fitbud-5te9b.ondigitalocean.app/
+
+Voorbeeld account login:
+<br>
+``
+email: test@test.com
+wachtwoord: test
+``
+<br>
+<br>
+Of maak een eigen account:
+<br>
+``
+https://fitbud-5te9b.ondigitalocean.app/registreer
+``
+<br>
+
+![](https://user-images.githubusercontent.com/32453774/110261606-2fa1bd80-7fb1-11eb-887c-4e8dcbd1436b.png)
 
 ## Content
 1. [Install App](#install-app)
@@ -53,7 +71,7 @@ npm start
 ```
 Succesvolle output:
 ```
-App listening at http://localhost:2999 and on local network at http://YOU_LOCALE_IP_ADRES:8080
+App listening at http://localhost:2999
 ```
 
 ## Install Database
@@ -78,7 +96,7 @@ Open het nieuwe betand in nano
 ```
 nano .env
 ```
-Hierin ga je variable toevoegen als gebruikersnaam, wachtwoord en database naam:
+Hierin voeg je variable toe als gebruikersnaam, wachtwoord en database naam:
 ```
 DB_USER=JOUW_DATABASE_GEBRUIKERSNAAM
 DB_PASS=JOUW_DATABASE_WACHTWOORD
@@ -106,7 +124,7 @@ Database connection succesfull
 ```
 
 ## Dependencies
-In dit project heb ik de volgende packaged gebruikt **NPM** : 
+In dit project heb ik de volgende **NPM** packages gebruikt: 
 * [bcrypt](https://www.npmjs.com/package/bcrypt)
 * [body-parser](https://www.npmjs.com/package/body-parser-json)
 * [dotenv](https://www.npmjs.com/package/dotenv)
@@ -116,7 +134,7 @@ In dit project heb ik de volgende packaged gebruikt **NPM** :
 * [mongoose](https://www.npmjs.com/package/mongoose)
 * [multer](https://www.npmjs.com/package/multer)
 * [node](https://www.npmjs.com/package/node)
-* [nodemon](https://www.npmjs.com/package/nodemon) **(Dev-dependency)**
+* **(Dev-dependency)** [nodemon](https://www.npmjs.com/package/nodemon) 
 
 ## License
 [MIT](https://github.com/Mentalyzd/Fitbud/blob/main/LICENSE) © [Christiaan Zandbergen](https://github.com/Mentalyzd)
