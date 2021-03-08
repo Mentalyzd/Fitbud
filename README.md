@@ -137,7 +137,7 @@ In dit project heb ik de volgende **NPM** packages gebruikt:
 * **(Dev-dependency)** [nodemon](https://www.npmjs.com/package/nodemon)
 
 ## Oude repo
-Door problemen met de oude repo een nieuwe repo begonnen. Voor alle oude commits bekijk:
+Door problemen met de oude repo, ben ik een nieuwe repo gestart. Voor alle oude commits bekijk:
 [Blok_Tech Repo](https://github.com/Mentalyzd/Blok_Tech)
 
 ## License
