@@ -17,7 +17,7 @@ wachtwoord: test
 Of maak een eigen account:
 <br>
 ``
-https://fitbud-5te9b.ondigitalocean.app/register
+https://fitbud-5te9b.ondigitalocean.app/registreer
 ``
 <br>
 
