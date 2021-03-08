@@ -12,6 +12,8 @@ Voorbeeld account login:
 email: test@test.com
 wachtwoord: test
 ``
+<br>
+<br>
 of maak een eigen account
 <br>
 ``
