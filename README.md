@@ -6,7 +6,7 @@ Deze webapp is alleen voor mobiel gebruik. Met de app kan je een eigen account a
 Bekijk live app:
 https://fitbud-5te9b.ondigitalocean.app/
 
-![](https://user-images.githubusercontent.com/32453774/110260433-86f15f00-7fac-11eb-89f6-9f430966ab6c.jpg)
+![](https://user-images.githubusercontent.com/32453774/110261550-f701e400-7fb0-11eb-908b-d33e8c4b5186.png)
 
 ## Content
 1. [Install App](#install-app)
