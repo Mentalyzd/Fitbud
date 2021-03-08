@@ -96,7 +96,7 @@ Open het nieuwe betand in nano
 ```
 nano .env
 ```
-Hierin ga je variable toevoegen als gebruikersnaam, wachtwoord en database naam:
+Hierin voeg je variable toe als gebruikersnaam, wachtwoord en database naam:
 ```
 DB_USER=JOUW_DATABASE_GEBRUIKERSNAAM
 DB_PASS=JOUW_DATABASE_WACHTWOORD
