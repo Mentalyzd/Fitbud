@@ -1,5 +1,18 @@
+// vars
 var registerCarousel = document.getElementById('registerCarousel');
 var registerWrap = document.getElementById('registerWrap');
+var registerSteps = document.getElementById('registerSteps')
+
+//set progressive enhancement
+function setProgressive() {
+    var loginA = document.getElementById('loginA')
+    var buttons = document.querySelectorAll('.hide')
+    for(i=0; i<buttons.length; i++) {buttons[i].classList.remove('hide')}
+    loginA.classList.add('hide')
+    registerCarousel.style.flexDirection = "row"
+}
+
+setProgressive()
 
 //Vorige btn's
 var prev1 = document.getElementById('prev1');

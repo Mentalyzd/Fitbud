@@ -12,9 +12,9 @@
   <body>
     <div class="registerWrap" id="registerWrap">
       <img id="fitbudLogo" src="assets/fitbudLogo.svg">
-      <h1>Register now</h1>
+      <h1>Register now</h1> 
       <p>Start your FitBud experience here!</p>
-      <div class="registerSteps">
+      <div class="registerSteps hide" id="registerSteps">
         <div class="progressBalk">
           <div class="innerProgressBalk"></div>
         </div>
@@ -56,9 +56,9 @@
               <p class="errorMsg"><%= errorMsg %></p>
             <%}%>
             <div class="btnControlFirst">
-              <button id="next1" type="button">Next</button>
+              <button class="hide" id="next1" type="button">Next</button>
             </div>
-            <a href="/">Already have an account? <span>log in.</span></a>
+            <a class="hide" href="/">Already have an account? <span>log in.</span></a>
           </div>
           <div id="stap2">
             <h3>Info</h3>
@@ -70,8 +70,8 @@
             <label for="age">Age</label>
             <input id="age" type="number" name="age" placeholder="18" required>
             <div class="btnControl">
-              <button class="prevBtn" id="prev3" type="button">Back</button>
-              <button id="next2" type="button">Next</button>
+              <button class="prevBtn hide" id="prev3" type="button">Back</button>
+              <button class="hide" id="next2" type="button">Next</button>
             </div>
           </div>
           <div id="stap3">
@@ -84,8 +84,8 @@
             <label for="gymerv">Gym expertise</label>
             <input id="gymerv" type="number" name="gymerv" placeholder="In years" required>
             <div class="btnControl">
-              <button class="prevBtn" id="prev2" type="button">Back</button>
-              <button id="next3" type="button">Next</button>
+              <button class="prevBtn hide" id="prev2" type="button">Back</button>
+              <button class="hide" id="next3" type="button">Next</button>
             </div>
           </div>
           <div id="stap4">
@@ -99,9 +99,11 @@
               <textarea name="bio" id="bio" placeholder="Describe when and what you do in the gym..." rows="4"></textarea>
             </div>
             <div class="btnControl">
-              <button class="prevBtn"  id="prev1" type="button">Back</button>
+              <button class="prevBtn hide"  id="prev1" type="button">Back</button>
               <input type="submit" value="Register" >
             </div>
+            <br>
+            <a id="loginA" href="/">Already have an account? <span>log in.</span></a>
           </div>
         </div>
       </form>

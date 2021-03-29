@@ -917,7 +917,7 @@ ul li a div{
     width: 400%;
     height: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     transition: 0.3s ease;
     padding-bottom: 2em;
 }
@@ -1028,4 +1028,8 @@ ul li a div{
 .registerWrap form .registerCarousel > div{
     width: 25%;
     padding-right: 1em;
+}
+
+.hide{
+    display: none !important;
 }
